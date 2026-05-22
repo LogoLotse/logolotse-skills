@@ -1,0 +1,421 @@
+# DLV-Quellenkatalog für LogoLotse
+# Kuratierte Relevanzübersicht: DLVaktuell-Ausgaben, Positionspapiere, Tags
+# Quellen: Deutschschweizer Logopädinnen- und Logopädenverband (DLV)
+
+web_sources:
+  - name: "DLV Medien, Öffentlichkeit & Positionen"
+    url: "https://www.logopaedie.ch/medien-%C3%B6ffentlichkeit-positionen"
+    content_types:
+      - DLVaktuell
+      - Positionspapiere
+      - PDF-Downloads
+    scan_frequency: "monthly"
+    purpose: "Kuratierter Relevanzkatalog für LogoLotse. Dient der Logopädie-Spezialistin als fachliche Wissens- und Inspirationsquelle für Produktentwicklung, PRDs, User Stories, MVP-Entscheide und fachliche Plausibilitätsprüfungen."
+    source: DLVaktuell und DLV-Positionspapiere
+    publisher: Deutschschweizer Logopädinnen- und Logopädenverband
+    domain: Schullogopädie Deutschschweiz
+
+issues:
+  - id: dlvaktuell_2019_2
+    issue: "DLVaktuell 2/2019"
+    title: "Dokumentation / Berichte"
+    relevance_for_logolotse: "sehr hoch"
+    priority: 1
+    key_topics:
+      - Berichtswesen
+      - Therapiedokumentation
+      - ICF
+      - Datenschutz
+      - Digitalisierung
+      - Diagnose-Sichtbarkeit
+      - Schulbehörden
+    relevant_articles:
+      - "Veränderungen im Berichtwesen"
+      - "ICF-Berichte in Zürich"
+      - "Datenschutz im Logopädie-Alltag"
+    product_implications:
+      - "Berichtsgenerator mit kantonalen Vorlagen"
+      - "ICF-orientierte Berichtsmodule"
+      - "strukturierte Therapiedokumentation"
+      - "Rollen- und Rechtekonzept für sensible Diagnosen"
+      - "DSG/revDSG-konforme Kommunikation und Dokumentenfreigabe"
+      - "Nachvollziehbarer Versand und Zugriff auf Berichte"
+    suggested_agent_use:
+      - "Bei Fragen zu Berichten, Datenschutz, Dokumentation, ICF und kantonalen Formularen konsultieren."
+    mvp_relevance: "muss geprüft werden; sehr wahrscheinlich MVP-relevant"
+
+  - id: dlvaktuell_2020_1
+    issue: "DLVaktuell 1/2020"
+    title: "Schnittstellen"
+    relevance_for_logolotse: "sehr hoch"
+    priority: 1
+    key_topics:
+      - Schule
+      - Schnittstellen
+      - Lehrpersonen
+      - SHP
+      - Eltern
+      - interdisziplinäre Zusammenarbeit
+      - Kompetenzgrenzen
+      - Prozesssteuerung
+      - Zeitressourcen
+      - gemeinsame Planung
+      - Dokumentation
+    relevant_articles:
+      - "Schnittstelle 2 in der Schule"  # Hinweis: "2" könnte Serienbezeichnung sein – Titel ggf. prüfen
+    product_implications:
+      - "Kommunikationsmodul Schule"
+      - "Rollenklärung Logopädie / Lehrperson / SHP / Eltern"
+      - "Standortgespräch-Workflow"
+      - "gemeinsame Förderplanung"
+      - "Aufgaben und Absprachen zwischen Fachpersonen"
+      - "kontextbezogene Sichtbarkeit von Informationen"
+    suggested_agent_use:
+      - "Bei allen Fragen zu Zusammenarbeit, schulischer Einbettung, Rollen und interdisziplinären Workflows konsultieren."
+    mvp_relevance: "sehr hoch"
+
+  - id: dlvaktuell_2023_2
+    issue: "DLVaktuell 2/2023"
+    title: "Logopädie und Psychologie"
+    # Hinweis: Das Heft enthält den wichtigen Artikel "Logopädische Versorgungslage im Schulbereich".
+    # Der Heft-Titel lautet "Logopädie und Psychologie" – nicht mit dem Artikel-Titel verwechseln.
+    relevance_for_logolotse: "sehr hoch"
+    priority: 1
+    key_topics:
+      - Versorgungslage im Schulbereich
+      - Wartelisten
+      - Ressourcenplanung
+      - Minuten pro Woche
+      - Abklärung
+      - Massnahmen
+      - Therapiepause
+      - Beratung
+      - Gemeinden
+      - Dienste
+      - Prävalenzen
+    relevant_articles:
+      - "Logopädische Versorgungslage im Schulbereich"
+    product_implications:
+      - "Wartelisten- und Triage-Modul"
+      - "Kapazitätsplanung nach Pensum und Falllast"
+      - "Reporting für Schulleitung / Gemeinde / Dienstleitung"
+      - "Statusmodell für Abklärung, Massnahme, Therapiepause und Beratung"
+      - "Ressourcen-Cockpit"
+      - "Priorisierung nach Dringlichkeit und schulischem Risiko"
+    suggested_agent_use:
+      - "Bei Ressourcen-, Wartelisten-, Triage-, Schulträger- und Controlling-Themen konsultieren."
+    mvp_relevance: "sehr hoch"
+
+  - id: dlvaktuell_2022_3
+    issue: "DLVaktuell 3/2022"
+    title: "Sprachverständnis bei Schüler:innen"
+    relevance_for_logolotse: "hoch"
+    priority: 2
+    key_topics:
+      - Sprachverständnis
+      - Diagnostik
+      - Therapie
+      - Förderung
+      - Monitoring
+      - TROG-D
+      - Fragekultur
+      - Zusammenarbeit mit Lehrpersonen
+      - Unterrichtstransfer
+    relevant_articles:
+      - "Artikel zum Sprachverständnismonitoring"
+      - "Artikel zu Diagnostik, Therapie und Förderung des Sprachverständnisses"
+      - "Artikel zur Fragekultur und zum Erkennen von Raten vs. Wissen"
+      - "Bericht aus dem Sprachheilschulalltag"
+    product_implications:
+      - "Fachmodul Sprachverständnis"
+      - "Abklärungs- und Therapieplanungs-Assistent"
+      - "Unterrichtstransfer-Hinweise für Lehrpersonen"
+      - "Förderziel-Bibliothek"
+      - "Verlaufsdokumentation für Sprachverständnis"
+      - "strukturierte Beobachtungsbögen"
+    suggested_agent_use:
+      - "Bei Fachmodulen zu Sprachverständnis, Diagnostik und Unterrichtstransfer konsultieren."
+    mvp_relevance: "hoch, abhängig vom fachlichen MVP-Scope"
+
+  - id: dlvaktuell_2024_3
+    issue: "DLVaktuell 3/2024"
+    title: "Selbstfürsorge im Beruf"
+    relevance_for_logolotse: "sehr hoch"
+    priority: 1
+    key_topics:
+      - Wartelisten
+      - Arbeitsbelastung
+      - Fachkräftemangel
+      - Abklärungen
+      - Therapiephasen
+      - Erwartungen von Lehrpersonen
+      - Kommunikation mit Eltern
+      - Kommunikation mit Lehrpersonen
+      - Zeitdruck
+      - Selbstfürsorge
+    relevant_articles:
+      - "Eine lange Warteliste macht auf allen Seiten grossen Druck."
+    product_implications:
+      - "Wartelistenmanagement"
+      - "Kommunikationsvorlagen für Eltern und Lehrpersonen"
+      - "Triage und Priorisierung"
+      - "Therapiephasen und Therapiepausen abbilden"
+      - "Belastungs- und Kapazitätssicht"
+      - "realistische Arbeitsplanung"
+    suggested_agent_use:
+      - "Bei Pain-Point-Analysen, Priorisierung, Arbeitsbelastung und Schullogopädie-Alltag konsultieren."
+    mvp_relevance: "sehr hoch"
+
+  - id: dlvaktuell_2021_4
+    issue: "DLVaktuell 4/2021"
+    title: "LRS / Dyslexie"
+    relevance_for_logolotse: "hoch"
+    priority: 2
+    key_topics:
+      - LRS
+      - Dyslexie
+      - Vorlesen
+      - Lesemotivation
+      - technologische Hilfsmittel
+      - kooperatives Lesen
+      - Nachteilsausgleich
+      - Eltern und Lehrpersonen
+    relevant_articles:
+      - "Prävention Vorlesen"
+      - "Technologische Hilfsmittel"
+      - "Lesemotivation"
+      - "Kooperatives Lese-Tandem"
+      - "Zauberhafte LRS-Therapie"
+    product_implications:
+      - "LRS-Fachmodul"
+      - "Förderplan-Generator"
+      - "Übungs- und Materialempfehlungen"
+      - "Eltern- und Lehrpersonen-Hinweise"
+      - "Dokumentation Nachteilsausgleich"
+    suggested_agent_use:
+      - "Bei LRS, Dyslexie, Lesen, Schreiben, Nachteilsausgleich und Hilfsmittel-Themen konsultieren."
+    mvp_relevance: "hoch, falls LRS Teil des MVP ist"
+
+  - id: dlvaktuell_2019_4
+    issue: "DLVaktuell 4/2019"
+    title: "Mehrsprachigkeit"
+    relevance_for_logolotse: "hoch"
+    priority: 2
+    key_topics:
+      - Mehrsprachigkeit
+      - DaZ
+      - frühe Deutschförderung
+      - Förderung vs. Therapie
+      - Erstsprachen
+      - Schriftspracherwerb
+      - pragmatische Kompetenzen
+      - Elternarbeit
+    relevant_articles:
+      - "Frühe Deutschförderung"
+      - "Förderung oder Therapie"
+      - "Schriftspracherwerb"
+      - "Einbezug der Erstsprachen"
+      - "Pragmatische Kompetenzen"
+    product_implications:
+      - "Mehrsprachigkeits-Anamnese"
+      - "Abgrenzung Förderung vs. Therapie"
+      - "Elternkommunikation bei Mehrsprachigkeit"
+      - "DaZ-Kontext im Fallprofil"
+      - "mehrsprachige Berichtbausteine"
+    suggested_agent_use:
+      - "Bei Mehrsprachigkeit, DaZ, Elternkommunikation und Abklärung von Sprachauffälligkeiten konsultieren."
+    mvp_relevance: "hoch"
+
+  - id: dlvaktuell_2017_4
+    issue: "DLVaktuell 4/2017"
+    title: "Unterstützte Kommunikation"
+    relevance_for_logolotse: "mittel bis hoch"
+    priority: 3
+    key_topics:
+      - Unterstützte Kommunikation
+      - Regelschule
+      - technologische Hilfsmittel
+      - Wortschatzerwerb
+      - komplexer Kommunikationsbedarf
+      - Symbole
+    relevant_articles:
+      - "UK in der Regelschule"
+      - "Technologische Hilfsmittel"
+      - "Sprache entdecken mit UK"
+    product_implications:
+      - "UK-Fallprofil"
+      - "Hilfsmittelverwaltung"
+      - "Symbol- und Piktogramm-Material"
+      - "Kommunikationspass"
+      - "Zusammenarbeit mit Lehrpersonen und SHP"
+    suggested_agent_use:
+      - "Bei Kindern mit komplexem Kommunikationsbedarf, UK und Hilfsmittel-Themen konsultieren."
+    mvp_relevance: "später oder Spezialmodul"
+
+  - id: dlvaktuell_2024_4
+    issue: "DLVaktuell 4/2024"
+    title: "Wortschätze"
+    relevance_for_logolotse: "mittel bis hoch"
+    priority: 3
+    key_topics:
+      - Wortschatz
+      - lexikalische Therapie
+      - Leichte Sprache
+      - Kernwortschatz
+      - Kindergarten
+      - Satzverständnis-Screening
+    relevant_articles:
+      - "Artikel zu lexikalischer Therapie"
+      - "Artikel zu Wortschatzerweiterung"
+      - "Artikel zu Leichter Sprache"
+      - "Artikel zu Kernwortschatz"
+      - "Screening Satzverständnis im Kindergarten"
+    product_implications:
+      - "Wortschatzmodul"
+      - "Therapiematerial-Bibliothek"
+      - "Screening-Workflow Kindergarten"
+      - "Materialgenerator"
+      - "Zielbibliothek Wortschatz"
+    suggested_agent_use:
+      - "Bei Wortschatz, Kindergarten, Screening und Therapiematerial konsultieren."
+    mvp_relevance: "mittel bis hoch"
+
+  - id: dlvaktuell_2025_1
+    issue: "DLVaktuell 1/2025"
+    title: "Künstliche Intelligenz"
+    relevance_for_logolotse: "sehr hoch, aber Volltextstatus prüfen"
+    priority: 2
+    key_topics:
+      - KI
+      - Diagnostik
+      - Therapieplanung
+      - Übungsempfehlungen
+      - Fortschrittsdokumentation
+      - Begleitung zwischen Terminen
+    relevant_articles:
+      - "TODO: Volltext noch nicht ausgewertet – sobald verfügbar nachführen"
+    product_implications:
+      - "KI-Assistenz in LogoLotse"
+      - "fachlich kontrollierte KI-Ausgaben"
+      - "Therapieplanungs-Assistent"
+      - "Übungsvorschläge"
+      - "Dokumentationsunterstützung"
+      - "Risiko- und Qualitätssicherung für KI"
+    suggested_agent_use:
+      - "Bei KI-Funktionen, Agenten-Design, Qualitätssicherung und fachlicher Verantwortung konsultieren."
+    mvp_relevance: "strategisch sehr hoch"
+
+positionspapiere:
+  - title: "Nachteilsausgleich"
+    relevance_for_logolotse: "sehr hoch"
+    key_topics:
+      - Nachteilsausgleich
+      - Schule
+      - LRS
+      - Stottern
+      - Teilhabe
+    product_implications:
+      - "Nachteilsausgleich-Dokumentation"
+      - "Massnahmenkatalog"
+      - "Vorlagen für Schule und Eltern"
+      - "Rollen- und Sichtbarkeitssteuerung"
+
+  - title: "Dyslexie / LRS"
+    relevance_for_logolotse: "hoch"
+    key_topics:
+      - LRS
+      - Dyslexie
+      - Abklärung
+      - Förderung
+      - Schule
+    product_implications:
+      - "LRS-Modul"
+      - "Förderplanung"
+      - "Dokumentation von Massnahmen"
+
+  - title: "Mehrsprachigkeit und logopädischer Unterstützungsbedarf"
+    relevance_for_logolotse: "hoch"
+    key_topics:
+      - Mehrsprachigkeit
+      - DaZ
+      - Sprachförderung
+      - Therapiebedarf
+      - Elternarbeit
+    product_implications:
+      - "Mehrsprachigkeitsprofil"
+      - "Anamnese-Workflow"
+      - "Entscheidungshilfe Förderung vs. Therapie"
+
+  - title: "Lehrplan 21 und Logopädie"
+    relevance_for_logolotse: "hoch"
+    key_topics:
+      - Lehrplan 21
+      - Schule
+      - Kompetenzen
+      - Förderplanung
+    product_implications:
+      - "Verknüpfung von Therapiezielen mit schulischen Kompetenzen"
+      - "Unterrichtstransfer"
+      - "Berichtbausteine"
+
+  - title: "Logopädische Erfassung im Kindergarten"
+    relevance_for_logolotse: "hoch"
+    key_topics:
+      - Kindergarten
+      - Screening
+      - Früherfassung
+      - Abklärung
+    product_implications:
+      - "Kindergarten-Screening"
+      - "Erfassungsworkflow"
+      - "Anmelde- und Triage-Prozess"
+
+  - title: "Fachkräftemangel im Bildungsbereich"
+    relevance_for_logolotse: "hoch"
+    key_topics:
+      - Fachkräftemangel
+      - Ressourcen
+      - Arbeitsbelastung
+      - Versorgung
+    product_implications:
+      - "Zeitersparnis als Kernnutzen"
+      - "Priorisierung knapper Ressourcen"
+      - "Reporting über Belastung und Versorgung"
+
+tags:
+  schule:
+    related_sources:
+      - dlvaktuell_2020_1
+      - dlvaktuell_2023_2
+      - dlvaktuell_2024_3
+  berichtswesen:
+    related_sources:
+      - dlvaktuell_2019_2
+  datenschutz:
+    related_sources:
+      - dlvaktuell_2019_2
+  wartelisten:
+    related_sources:
+      - dlvaktuell_2023_2
+      - dlvaktuell_2024_3
+  lrs:
+    related_sources:
+      - dlvaktuell_2021_4
+  mehrsprachigkeit:
+    related_sources:
+      - dlvaktuell_2019_4
+  sprachverstaendnis:
+    related_sources:
+      - dlvaktuell_2022_3
+  uk:
+    related_sources:
+      - dlvaktuell_2017_4
+  ki:
+    related_sources:
+      - dlvaktuell_2025_1
+  nachteilsausgleich:
+    related_sources:
+      - dlvaktuell_2021_4
+  wortschatz:
+    related_sources:
+      - dlvaktuell_2024_4

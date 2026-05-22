@@ -1,0 +1,193 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "$description": "LogoLotse Design Tokens — W3C Design Tokens Format Module. Quelle der Wahrheit für alle visuellen Konstanten. Stand: Iteration 1.",
+  "$metadata": {
+    "manual": "LogoLotse Corporate Design Manual",
+    "version": "1.0.0-iter1",
+    "date": "2026-04-26",
+    "audience": "Paperclip-KI-Agenten + menschliche Stakeholder"
+  },
+
+  "color": {
+    "brand": {
+      "teal": {
+        "deep":   { "$value": "#0e4a4a", "$type": "color", "$description": "Tiefster Markenton. Backgrounds für stark betonte Sektionen, Hover-States auf Teal-Flächen." },
+        "dark":   { "$value": "#1a6b6b", "$type": "color", "$description": "PRIMÄRFARBE. Hauptträger der Marke. CTA-Buttons, aktive Navigation, primäre Akzente." },
+        "base":   { "$value": "#1e8a8a", "$type": "color", "$description": "Zweite Teal-Stufe. Sekundäre Akzente, Logo-Detailflächen, Verläufe." },
+        "light":  { "$value": "#5fb3b3", "$type": "color", "$description": "Helle Teal-Variante. Decorative Akzente, Charts, Illustrationen." },
+        "tint":   { "$value": "#e8f4f4", "$type": "color", "$description": "Sehr heller Teal-Tint. Ausgewählte Zustände, Tag-Hintergründe, Hover-Tints." },
+        "subtle": { "$value": "#f7fbfb", "$type": "color", "$description": "Hauchzarter Teal-Wash. Sektions-Hintergründe, abgesetzte Karten." }
+      },
+      "signal": {
+        "amber":      { "$value": "#f0a030", "$type": "color", "$description": "LEUCHTTURM-ORANGE. Signalfarbe. Sparsam einsetzen für Hinweise, Highlights, Notifications. NICHT als CTA-Farbe." },
+        "amber-dark": { "$value": "#b86d18", "$type": "color", "$description": "Dunkler Amber für Hover/Press auf Signal-Elementen." },
+        "amber-tint": { "$value": "#fff4e0", "$type": "color", "$description": "Heller Amber-Hintergrund für Hinweis-Boxen." }
+      }
+    },
+
+    "neutral": {
+      "text": {
+        "strong":   { "$value": "#0e1f1f", "$type": "color", "$description": "Headlines, höchste Lesbarkeit." },
+        "default":  { "$value": "#1a2e2e", "$type": "color", "$description": "Standard-Body-Text." },
+        "muted":    { "$value": "#3d5a5a", "$type": "color", "$description": "Sekundäre Texte, Captions, Metadaten." },
+        "subtle":   { "$value": "#6b8a8a", "$type": "color", "$description": "Tertiäre Texte, Platzhalter, deaktivierte Hint-Texte." },
+        "disabled": { "$value": "#a8c0c0", "$type": "color", "$description": "Deaktivierte Text-Zustände." }
+      },
+      "bg": {
+        "default": { "$value": "#ffffff", "$type": "color", "$description": "Standard-Hintergrund (Karten, Modals, Content)." },
+        "subtle":  { "$value": "#f7fbfb", "$type": "color", "$description": "Sektions-Hintergrund, Page-Background." },
+        "muted":   { "$value": "#e8f0f0", "$type": "color", "$description": "Stärker abgesetzte Sektionen, Toolbars." },
+        "inverse": { "$value": "#0e4a4a", "$type": "color", "$description": "Dunkler Hintergrund für invertierte Sektionen (Hero, Footer)." }
+      },
+      "border": {
+        "subtle":  { "$value": "#e8f0f0", "$type": "color", "$description": "Sehr leichte Trennlinien." },
+        "default": { "$value": "#d0e4e4", "$type": "color", "$description": "Standard-Border (Cards, Inputs)." },
+        "strong":  { "$value": "#a8c8c8", "$type": "color", "$description": "Betonte Border, Fokus-Indikatoren." }
+      }
+    },
+
+    "feedback": {
+      "success":      { "$value": "#15803d", "$type": "color", "$description": "Erfolg, abgeschlossen, validiert." },
+      "success-bg":   { "$value": "#f0fdf4", "$type": "color", "$description": "Hintergrund für Erfolgs-Alerts." },
+      "warning":      { "$value": "#b45309", "$type": "color", "$description": "Warnung, Aufmerksamkeit erforderlich. Distinkt von Signal-Amber." },
+      "warning-bg":   { "$value": "#fffbeb", "$type": "color", "$description": "Hintergrund für Warnungs-Alerts." },
+      "error":        { "$value": "#b91c1c", "$type": "color", "$description": "Fehler, blockierende Probleme. Sparsam einsetzen." },
+      "error-bg":     { "$value": "#fef2f2", "$type": "color", "$description": "Hintergrund für Fehler-Alerts." },
+      "info":         { "$value": "{color.brand.teal.dark}", "$type": "color", "$description": "Info verwendet Markenfarbe — semantische Wiederverwendung." },
+      "info-bg":      { "$value": "{color.brand.teal.tint}", "$type": "color", "$description": "Info-Box-Hintergrund." }
+    },
+
+    "tool-family": {
+      "lautsprache": {
+        "$description": "Familie 1: Lautsprache & Sprechmotorik (Artikulation, Minimal-Pair, Phonem-Manipulation, Phonologische Bewusstheit, Redefluss). Warmer Ton — verweist auf Klang/Mund/Output.",
+        "primary":      { "$value": "#c2410c", "$type": "color" },
+        "primary-dark": { "$value": "#9a3412", "$type": "color" },
+        "bg":           { "$value": "#fff7ed", "$type": "color" },
+        "tint":         { "$value": "#fee4cf", "$type": "color" }
+      },
+      "sprachverstehen": {
+        "$description": "Familie 2: Sprachverstehen (Auditive Verarbeitung, Sprachverständnis, W-Fragen). Kühler Blauton — verweist auf Hören/Aufnahme/Input.",
+        "primary":      { "$value": "#155e75", "$type": "color" },
+        "primary-dark": { "$value": "#0e4a5e", "$type": "color" },
+        "bg":           { "$value": "#ecfeff", "$type": "color" },
+        "tint":         { "$value": "#cffafe", "$type": "color" }
+      },
+      "schriftsprache": {
+        "$description": "Familie 3: Schriftsprache (LRS-Training, Lesefluss). Violett/Indigo — scholarly, schriftbezogen.",
+        "primary":      { "$value": "#6d28d9", "$type": "color" },
+        "primary-dark": { "$value": "#5b21b6", "$type": "color" },
+        "bg":           { "$value": "#f5f3ff", "$type": "color" },
+        "tint":         { "$value": "#e9e4ff", "$type": "color" }
+      },
+      "wortschatz-grammatik": {
+        "$description": "Familie 4: Wortschatz & Grammatik (Grammatik, Satzstruktur, Wortabruf, Wortschatz, Erzählkompetenz). Grün — Sprachstruktur, Wachstum, Lexikon.",
+        "primary":      { "$value": "#047857", "$type": "color" },
+        "primary-dark": { "$value": "#065f46", "$type": "color" },
+        "bg":           { "$value": "#ecfdf5", "$type": "color" },
+        "tint":         { "$value": "#d1fae5", "$type": "color" }
+      }
+    }
+  },
+
+  "typography": {
+    "family": {
+      "sans":  { "$value": "Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif", "$type": "fontFamily", "$description": "Workhorse. UI, Body, alle nicht-Display-Anwendungen." },
+      "serif": { "$value": "Fraunces, 'Iowan Old Style', Georgia, serif", "$type": "fontFamily", "$description": "Display. Headlines, Hero-Titel, Marketing-Akzente. Sparsam einsetzen — Inter trägt 80%+ der Typografie." },
+      "mono":  { "$value": "'JetBrains Mono', 'SF Mono', Consolas, monospace", "$type": "fontFamily", "$description": "Technische Metadaten, IDs, Code-Beispiele." }
+    },
+    "weight": {
+      "regular":  { "$value": 400, "$type": "fontWeight" },
+      "medium":   { "$value": 500, "$type": "fontWeight" },
+      "semibold": { "$value": 600, "$type": "fontWeight" },
+      "bold":     { "$value": 700, "$type": "fontWeight" },
+      "black":    { "$value": 800, "$type": "fontWeight", "$description": "Nur für Hero-H1 erlaubt." }
+    },
+    "size": {
+      "12": { "$value": "0.75rem",  "$type": "dimension", "$description": "Caption, Footnote." },
+      "14": { "$value": "0.875rem", "$type": "dimension", "$description": "Small Body, Meta." },
+      "16": { "$value": "1rem",     "$type": "dimension", "$description": "Body Default." },
+      "18": { "$value": "1.125rem", "$type": "dimension", "$description": "Lead, betonter Body." },
+      "20": { "$value": "1.25rem",  "$type": "dimension", "$description": "H5 / UI-Headline." },
+      "24": { "$value": "1.5rem",   "$type": "dimension", "$description": "H4 / Sektions-Headline." },
+      "30": { "$value": "1.875rem", "$type": "dimension", "$description": "H3." },
+      "36": { "$value": "2.25rem",  "$type": "dimension", "$description": "H2." },
+      "48": { "$value": "3rem",     "$type": "dimension", "$description": "H1." },
+      "60": { "$value": "3.75rem",  "$type": "dimension", "$description": "Hero-Display (responsive Cap)." }
+    },
+    "line-height": {
+      "tight":  { "$value": 1.1,  "$type": "number", "$description": "Headlines." },
+      "snug":   { "$value": 1.25, "$type": "number", "$description": "Sub-Headlines." },
+      "normal": { "$value": 1.5,  "$type": "number", "$description": "Body — Standard." },
+      "relaxed":{ "$value": 1.65, "$type": "number", "$description": "Lange Lese-Texte (Berichte)." }
+    },
+    "letter-spacing": {
+      "tighter": { "$value": "-0.02em", "$type": "dimension", "$description": "Hero/H1." },
+      "tight":   { "$value": "-0.01em", "$type": "dimension", "$description": "H2-H4." },
+      "normal":  { "$value": "0",       "$type": "dimension", "$description": "Body." },
+      "wide":    { "$value": "0.04em",  "$type": "dimension", "$description": "Uppercase Labels, Eyebrows." }
+    }
+  },
+
+  "space": {
+    "$description": "4px-Basis. NUR diese Werte verwenden — keine ad-hoc-Spacings.",
+    "0":  { "$value": "0",    "$type": "dimension" },
+    "1":  { "$value": "4px",  "$type": "dimension" },
+    "2":  { "$value": "8px",  "$type": "dimension" },
+    "3":  { "$value": "12px", "$type": "dimension" },
+    "4":  { "$value": "16px", "$type": "dimension" },
+    "5":  { "$value": "20px", "$type": "dimension" },
+    "6":  { "$value": "24px", "$type": "dimension" },
+    "8":  { "$value": "32px", "$type": "dimension" },
+    "10": { "$value": "40px", "$type": "dimension" },
+    "12": { "$value": "48px", "$type": "dimension" },
+    "16": { "$value": "64px", "$type": "dimension" },
+    "20": { "$value": "80px", "$type": "dimension" },
+    "24": { "$value": "96px", "$type": "dimension" }
+  },
+
+  "radius": {
+    "none": { "$value": "0",     "$type": "dimension" },
+    "sm":   { "$value": "6px",   "$type": "dimension", "$description": "Inputs, kleine Badges." },
+    "md":   { "$value": "10px",  "$type": "dimension", "$description": "Standard für Buttons, Cards (Default)." },
+    "lg":   { "$value": "16px",  "$type": "dimension", "$description": "Größere Karten, Modals, Tool-Panels." },
+    "xl":   { "$value": "24px",  "$type": "dimension", "$description": "Hero-Bilder, sehr große Container." },
+    "full": { "$value": "9999px","$type": "dimension", "$description": "Pills, runde Avatare." }
+  },
+
+  "shadow": {
+    "xs": { "$value": "0 1px 2px rgba(14, 31, 31, 0.06)",                                          "$type": "shadow" },
+    "sm": { "$value": "0 1px 2px rgba(14, 31, 31, 0.06), 0 1px 3px rgba(14, 31, 31, 0.08)",        "$type": "shadow" },
+    "md": { "$value": "0 4px 6px rgba(14, 31, 31, 0.06), 0 2px 4px rgba(14, 31, 31, 0.08)",        "$type": "shadow" },
+    "lg": { "$value": "0 10px 15px rgba(14, 31, 31, 0.08), 0 4px 6px rgba(14, 31, 31, 0.05)",      "$type": "shadow" },
+    "xl": { "$value": "0 20px 25px rgba(14, 31, 31, 0.1), 0 10px 10px rgba(14, 31, 31, 0.04)",     "$type": "shadow" }
+  },
+
+  "border-width": {
+    "thin":     { "$value": "1px", "$type": "dimension" },
+    "regular":  { "$value": "2px", "$type": "dimension" },
+    "thick":    { "$value": "3px", "$type": "dimension" }
+  },
+
+  "motion": {
+    "duration": {
+      "instant": { "$value": "0ms",   "$type": "duration" },
+      "fast":    { "$value": "120ms", "$type": "duration", "$description": "Button-Hover, kleine UI-Reaktionen." },
+      "normal":  { "$value": "200ms", "$type": "duration", "$description": "Standard-Transitions." },
+      "slow":    { "$value": "320ms", "$type": "duration", "$description": "Modal-Einblendungen, größere Layoutwechsel." }
+    },
+    "easing": {
+      "standard": { "$value": "cubic-bezier(0.2, 0.0, 0.0, 1.0)",  "$type": "cubicBezier", "$description": "Standard-Ease — schnell raus, sanft an." },
+      "emphasis": { "$value": "cubic-bezier(0.2, 0.0, 0.2, 1.0)",  "$type": "cubicBezier", "$description": "Aufmerksamkeit lenkend." },
+      "linear":   { "$value": "cubic-bezier(0, 0, 1, 1)",          "$type": "cubicBezier", "$description": "Loading-Indicators." }
+    }
+  },
+
+  "breakpoint": {
+    "$description": "Mobile-First. Werte sind Min-Width-Schwellen.",
+    "sm":  { "$value": "640px",  "$type": "dimension" },
+    "md":  { "$value": "768px",  "$type": "dimension" },
+    "lg":  { "$value": "1024px", "$type": "dimension" },
+    "xl":  { "$value": "1280px", "$type": "dimension" },
+    "2xl": { "$value": "1536px", "$type": "dimension" }
+  }
+}

@@ -1,0 +1,15 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="LogoLotse Bildmarke">
+  <title>LogoLotse Bildmarke (Leuchtturm)</title>
+  <!-- Tower silhouette: foundation > mid > top in one tapering path -->
+  <path d="M 14,56 L 18,36 L 21,18 L 43,18 L 46,36 L 50,56 Z" fill="#1a6b6b"/>
+  <!-- Catwalk gallery -->
+  <rect x="19" y="16" width="26" height="2.4" fill="#1a6b6b"/>
+  <!-- Lamp room -->
+  <rect x="25" y="9" width="14" height="7" fill="#1a6b6b"/>
+  <!-- Light glow -->
+  <circle cx="32" cy="11.6" r="4.6" fill="#f0a030" opacity="0.22"/>
+  <!-- Light source -->
+  <circle cx="32" cy="11.6" r="2.3" fill="#f0a030"/>
+  <!-- Roof / dome -->
+  <path d="M 25,9 L 32,2 L 39,9 Z" fill="#1a6b6b"/>
+</svg>

@@ -1,0 +1,10 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="LogoLotse Bildmarke (Mono dunkel)">
+  <title>LogoLotse Bildmarke — Mono dunkel (Teal Deep #0E4A4A). Verwendung: hartkodierte Variante für Print ohne CSS-Kontext, einfarbige Stempel, Schwarzweiss-Faxe.</title>
+  <g fill="#0E4A4A">
+    <path d="M 14,56 L 18,36 L 21,18 L 43,18 L 46,36 L 50,56 Z"/>
+    <rect x="19" y="16" width="26" height="2.4"/>
+    <rect x="25" y="9" width="14" height="7"/>
+    <circle cx="32" cy="11.6" r="2.3"/>
+    <path d="M 25,9 L 32,2 L 39,9 Z"/>
+  </g>
+</svg>

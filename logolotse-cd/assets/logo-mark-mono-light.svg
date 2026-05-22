@@ -1,0 +1,10 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="LogoLotse Bildmarke (Mono hell / Negativ)">
+  <title>LogoLotse Bildmarke — Mono hell / Negativ (#FFFFFF). Verwendung: hartkodierte Variante auf dunklen oder farbigen Markenflächen ohne CSS-Kontext.</title>
+  <g fill="#FFFFFF">
+    <path d="M 14,56 L 18,36 L 21,18 L 43,18 L 46,36 L 50,56 Z"/>
+    <rect x="19" y="16" width="26" height="2.4"/>
+    <rect x="25" y="9" width="14" height="7"/>
+    <circle cx="32" cy="11.6" r="2.3"/>
+    <path d="M 25,9 L 32,2 L 39,9 Z"/>
+  </g>
+</svg>
